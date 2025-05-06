@@ -22,12 +22,12 @@ const profile: IProfile.Payload = {
     },
     {
       // title: '010-7490-8486',
-      title: 'Please contact me by email',      
+      title: 'Please contact me by email',
       icon: faPhone,
       badge: true,
     },
     {
-      link: 'https://github.com/kimchiPPower',
+      link: 'https://github.com/lim8489',
       icon: faGithub,
     },
     // {
@@ -36,8 +36,7 @@ const profile: IProfile.Payload = {
     // },
   ],
   notice: {
-    title:
-      "04/07 기억하겠다..",
+    title: '안녕하세요! 저는 6년차 개발자 임현빈입니다.',
     icon: faBell,
   },
 };

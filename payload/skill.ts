@@ -10,20 +10,19 @@ const Languages: ISkill.Skill = {
     {
       title: 'JAVA',
       level: 2,
-    },     
+    },
     {
       title: 'HTML/CSS',
       level: 3,
-    },    
+    },
     {
       title: 'TypeScript',
       level: 1,
-    },                   
+    },
     {
       title: 'JavaScript',
       level: 3,
-    },        
-
+    },
   ],
 };
 
@@ -37,11 +36,11 @@ const Frameworks: ISkill.Skill = {
     {
       title: 'Node.js',
       level: 2,
-    }, 
+    },
     {
       title: 'Vue.js',
       level: 1,
-    },           
+    },
   ],
 };
 
@@ -53,16 +52,16 @@ const Infrastructure: ISkill.Skill = {
     },
     {
       title: 'MySQL',
-    },    
+    },
     {
       title: 'Apache',
     },
     {
       title: 'AWS',
-    },    
+    },
     {
       title: 'Oracle',
-    },            
+    },
     {
       title: 'MSSQL',
     },
@@ -74,16 +73,16 @@ const Tools: ISkill.Skill = {
   items: [
     {
       title: 'Vim',
-    },        
+    },
     {
       title: 'Git',
-    },    
+    },
     {
       title: 'GitLab',
     },
     {
       title: 'Github',
-    },    
+    },
     {
       title: 'VS Code',
     },
@@ -92,7 +91,7 @@ const Tools: ISkill.Skill = {
     },
     {
       title: 'svn',
-    },    
+    },
   ],
 };
 
@@ -157,8 +156,8 @@ const skill: ISkill.Payload = {
     Frameworks,
     Infrastructure,
     Tools,
-    //networkSecurity,
-    //misc,
+    // networkSecurity,
+    // misc,
   ],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };

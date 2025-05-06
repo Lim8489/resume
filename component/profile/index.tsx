@@ -20,9 +20,8 @@ export const Profile = {
 };
 
 function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
-  //const { image, contact, name, notice } = payload;
-  //notice는 필요없을 것 같아 일단 주석처리 *20250423 임현빈*
-  const { image, contact, name} = payload;
+  const { image, contact, name, notice } = payload;
+  // const { image, contact, name} = payload;
   return (
     <div className="mt-5">
       <Row>
@@ -32,7 +31,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
         <Col md={9} sm={12}>
           {createNameArea(name)}
           {createProfileContactMap(contact)}
-          {/* {createNoticeArea(notice)} */}
+          {createNoticeArea(notice)}
         </Col>
       </Row>
     </div>
