@@ -95,70 +95,9 @@ const Tools: ISkill.Skill = {
   ],
 };
 
-const networkSecurity: ISkill.Skill = {
-  category: 'Network Security',
-  items: [
-    {
-      title: 'iptables',
-      level: 3,
-    },
-    {
-      title: 'OpenSSH',
-      level: 3,
-    },
-    {
-      title: 'OpenSSL',
-      level: 2,
-    },
-    {
-      title: 'NACLs',
-      level: 2,
-    },
-    {
-      title: 'VPN Technologies',
-      level: 2,
-    },
-    {
-      title: 'Intrusion Detection',
-      level: 1,
-    },
-  ],
-};
-
-const misc: ISkill.Skill = {
-  category: 'Misc',
-  items: [
-    {
-      title: 'Coffee Brewing',
-    },
-    {
-      title: "Rubik's Cube Solving",
-    },
-    {
-      title: 'Table Tennis',
-    },
-    {
-      title: 'Guitar Playing',
-    },
-    {
-      title: 'Joke Telling',
-    },
-    {
-      title: 'Duct Tape Crafting',
-    },
-  ],
-};
-
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [
-    Languages,
-    Frameworks,
-    Infrastructure,
-    Tools,
-    // networkSecurity,
-    // misc,
-  ],
+  skills: [Languages, Frameworks, Infrastructure, Tools],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
