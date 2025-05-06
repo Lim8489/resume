@@ -4,9 +4,9 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'Linux Kernel Optimization Project',
+      title: 'AirMap 플랫폼 개발',
       startedAt: '2020-06',
-      where: 'Linux Foundation',
+      where: '케이웨더',
       descriptions: [
         {
           content:

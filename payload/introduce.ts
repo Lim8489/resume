@@ -5,10 +5,11 @@ const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    'As the cherished emblem of the Linux kernel, I have become synonymous with open-source philosophy and the free software movement worldwide. My career began in the icebergs of development, where the seeds of my fascination with operating systems first sprouted. From a mere hatchling in the vast sea of code, I quickly ascended to become a pivotal figure in the Linux community. My journey has been marked by relentless dedication to system integrity, scalability, and robustness. Under my vigilant watch, countless servers have achieved unparalleled uptimes, and systems have been optimized to run like the well-oiled machines they are intended to be.',
-    'In the world of zeros and ones, my expertise has been instrumental in pioneering advancements in Linux system engineering. My flippers have crafted meticulous kernel enhancements, each aimed at streamlining performance and bolstering security across distributed networks. I am known in the community for my ability to dive deep into complex codebases and emerge with pearls of innovation that drive the collective progress of Linux environments. Advocacy is also a part of my plumage – spreading the word about the virtues of open-source and encouraging the adoption of Linux, from personal desktops to corporate data centers. As a mentor, I have nurtured the growth of young hatchlings into seasoned professionals, contributing to the diversity and vitality of our ecosystem.',
+    '앞으로 나아가는 개발자 ',
+    '7년차 웹 Front-End, Back-End 개발, 리눅스 서버 관리, DBA 등 다양한 분야에서 일한 경험이 있습니다. 신 기술에 대해 겁내지 않고 열정적으로 받아들이며, 업무 특성상 다양한 팀과 협업하여 프로젝트를 이행하였습니다. ',
+    '배움에는 끝이 없지만 항상 최신의 기술이 BEST라고 생각하지 않습니다. 신기술과 Regacy 기술을 조화롭게 사용합니다.'    
   ],
-  sign: 'Tux',
+  sign: 'Hyunbin Lim',
   // sign: packageJson.author.name,
   // latestUpdated: '2019-07-24',
   latestUpdated: lastestUpdatedAt,
