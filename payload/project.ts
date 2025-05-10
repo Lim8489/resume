@@ -66,7 +66,7 @@ const project: IProject.Payload = {
               content:
                 '기상청자료, 케이웨더 내 기상 데이터를 회원사 요청에 따른 기상데이터 제공(xml,json)',
             },
-            { content: '서버 내 crontab에 등록하여 자동화' },
+            { content: '서버 내 crontab 등록을 통한 자동화' },
           ],
         },
       ],
@@ -85,7 +85,7 @@ const project: IProject.Payload = {
               content:
                 'PHP에 telegram 채널,bot key를 받아 문제 발생 시에 bot이 채널에 공유해주는 형식',
             },
-            { content: '서버 내 crontab에 등록하여 자동화' },
+            { content: '서버 내 crontab 등록을 통한 자동화' },
             { content: '문제 발생 시 신속한 대응에 용이' },
           ],
         },
@@ -94,7 +94,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             { content: 'Fandora FMS, Zabbix를 통한 서버 모니터링' },
-            { content: '서버 내 crontab에 등록하여 자동화' },
+            { content: '서버 내 crontab 등록을 통한 자동화' },
           ],
         },
       ],
